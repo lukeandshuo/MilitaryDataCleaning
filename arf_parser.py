@@ -4,7 +4,7 @@ import os
 import cv2
 import numpy as np
 import time
-Dir = "sample_data/Imagery/IR_imagery/"
+Dir = "sample_data/Imagery/Visible_imagery/"
 VideoDir = Dir+"videos/"
 fileList = os.listdir(VideoDir)
 start = time.clock()

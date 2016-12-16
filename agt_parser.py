@@ -98,13 +98,18 @@ def paserFile(path):
                 "TgtSenRelAzimuth":TgtSenRelAzimuth,"TgtSenRelElevation":TgtSenRelElevation,"PlyId":PlyId,"PixLocX":PixLocX,
                 "PixLocY": PixLocY,"Aspect": Aspect,"TgtType": TgtType,"Range":Range}
         data_frame = DataFrame(dict([(k,Series(v)) for k,v in data.iteritems()]))
-        data_csv = data_frame.to_csv(index=False)
-        csv_name = fileOnlyName+".csv"
-        with open(csv_name,'w') as file:
-            file.write(data_csv)
+        csv_name = fileOnlyName + ".csv"
+       # csv_path = os.path.join(os.getcwd(),csv_name)
+       # print os.getcwd()
+        data_frame.to_csv(csv_name,index=False)
+
 if __name__== "__main__":
     folderDir = "sample_data/AGT/Visible_agt/"
+    #folderDir = "/media/shuoliu/DATAPART1/Shuo/IROD/ATR_Database/sample_data/AGT/Visible_agt/"
+   # folderDir = os.path.join(os.getcwd(),folderDir)   
     listDir = os.listdir(folderDir)
+    print folderDir
+    print listDir
     for f in listDir:
         if os.path.splitext(f)[1] ==".agt":
             filePath = folderDir + f

@@ -28,7 +28,7 @@ def paserBbox(path):
         file.write(data_csv)
 
 if __name__ == "__main__":
-    pathDir = "sample_data/Metric/IR/"
+    pathDir = "sample_data/Metric/IR_metric/"
     listDir = os.listdir(pathDir)
     print listDir
     for f in listDir:
