@@ -1,2 +1,3 @@
 # MilitaryDataCleaning
-#mean value : 133.186804756
+#visible mean value :120.339098931
+#IR mean value :74.4901572789

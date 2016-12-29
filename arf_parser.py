@@ -6,7 +6,7 @@ import numpy as np
 import time
 from skimage import img_as_ubyte
 from skimage import exposure
-Dir = "sample_data/Imagery/Visible_imagery/"
+Dir = "sample_data/Imagery/IR/"
 VideoDir = Dir+"videos/"
 fileList = os.listdir(VideoDir)
 start = time.clock()
