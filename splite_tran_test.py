@@ -7,20 +7,19 @@ import time
 Annotations_dir = "sample_data/Annotations/Visible/"
 Train_Test_dir = "sample_data/Train_Test/Visible/"
 
-GT_file = "sample_data/GroundTruth/Visible_GT/FullList.csv"
+GT_file = "sample_data/GroundTruth/Visible/FullList.csv"
 
 if not os.path.isfile(GT_file):
     print "no that file"
 else:
     df = pd.read_csv(GT_file,na_values=['-1',' '])
     clean_df = df[pd.notnull(df['Match'])]
-    clean_df.to_csv("test.csv",index=False)
     train_df = clean_df[(clean_df["TgtType"]!="ZSU23") & (clean_df["TgtType"]!="2S3")]
     train_df = train_df[train_df["Frame"]%5 == 0] # skip 5 frame
     test_df = clean_df[(clean_df["TgtType"]=="ZSU23") | (clean_df["TgtType"]=="2S3")]
     test_df = test_df[test_df["Frame"]%5==0]
     train_df = train_df.reindex(np.random.permutation(train_df.index))
-    test_df = test_df.reindex(np.random.permutation(test_df.index))
+    #test_df = test_df.reindex(np.random.permutation(test_df.index))
     train_image = train_df["ImageName"]
     train_box= DataFrame({"X1":train_df['UpperLeft'],"Y1":train_df["UpperTop"],"X2":train_df["UpperLeft"]
                      +train_df["BBoxW"],"Y2":train_df["UpperTop"]+train_df["BBoxH"]},columns=["X1","Y1","X2","Y2"])

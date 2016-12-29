@@ -2,8 +2,8 @@ import os
 import pandas
 from pandas import Series,DataFrame
 
-IRDir = "sample_data/GroundTruth/IR_GT/"
-VisibleDir = "sample_data/GroundTruth/Visible_GT/"
+IRDir = "sample_data/GroundTruth/IR/"
+VisibleDir = "sample_data/GroundTruth/Visible/"
 
 
 def CombineFiles(Dir):

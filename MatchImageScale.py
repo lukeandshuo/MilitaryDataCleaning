@@ -47,10 +47,10 @@ def ImproveBrightNess(image):
 
 if __name__ == "__main__":
      #Drawing Visble
-     V_BboxDir = "sample_data/GroundTruth/Visible_GT/"
-     V_ImageDir = "sample_data/imagery/Visible_imagery/images/"
+     V_BboxDir = "sample_data/GroundTruth/Visible/"
+     V_ImageDir = "sample_data/imagery/Visible/images/"
      DrawBoxV(V_BboxDir,V_ImageDir)
      #Drawing IR
-     IR_BboxDir = "sample_data/GroundTruth/IR_GT/"
-     IR_ImageDir = "sample_data/imagery/IR_imagery/images/"
+     IR_BboxDir = "sample_data/GroundTruth/IR/"
+     IR_ImageDir = "sample_data/imagery/IR/images/"
      DrawBoxIR(IR_BboxDir,IR_ImageDir)

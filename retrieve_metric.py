@@ -6,12 +6,12 @@ IR_W = 640
 V_H = 480
 V_W = 640
 MetricDir = "sample_data/Metric/"
-IRMetricDir = MetricDir + "IR_metric/"
-VisibleMetricDir = MetricDir + "Visible_metric/"
+IRMetricDir = MetricDir + "IR/"
+VisibleMetricDir = MetricDir + "Visible"
 
 AGTDir = "sample_data/AGT/"
-IRAGTDir = AGTDir+"IR_agt/"
-VisibleAGTDir = AGTDir + "Visible_agt/"
+IRAGTDir = AGTDir+"IR/"
+VisibleAGTDir = AGTDir + "Visible/"
 
 def GetTime(Time):
     Time = Time.split('/')

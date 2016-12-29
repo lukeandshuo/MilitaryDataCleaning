@@ -8,9 +8,9 @@ import time
 # GTDir = "sample_data/GroundTruth/Visible_GT/"
 
 #For IR
-AgtDir = "sample_data/AGT/IR_agt/"
-MetricDir = "sample_data/Metric/IR_metric/"
-GTDir = "sample_data/GroundTruth/IR_GT/"
+AgtDir = "sample_data/AGT/IR/"
+MetricDir = "sample_data/Metric/IR/"
+GTDir = "sample_data/GroundTruth/IR/"
 
 start = time.clock()
 fileList = os.listdir(AgtDir)

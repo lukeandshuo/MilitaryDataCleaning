@@ -104,7 +104,7 @@ def paserFile(path):
         data_frame.to_csv(csv_name,index=False)
 
 if __name__== "__main__":
-    folderDir = "sample_data/AGT/Visible_agt/"
+    folderDir = "sample_data/AGT/Visible/"
     #folderDir = "/media/shuoliu/DATAPART1/Shuo/IROD/ATR_Database/sample_data/AGT/Visible_agt/"
    # folderDir = os.path.join(os.getcwd(),folderDir)   
     listDir = os.listdir(folderDir)
