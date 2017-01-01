@@ -24,6 +24,8 @@ def paserFile(path):
         PixLocY =[]
         Aspect =[]
         TgtType =[]
+        FovW =[]
+        FovH = []
         for line in file:
             line = line.strip('\n')
             line = line.strip() #remove space
@@ -35,11 +37,6 @@ def paserFile(path):
             if start:
                 for i,w in enumerate(words):
                     w = w.strip("\"")
-                    if w == "Time":
-                        words[i + 6]=words[i+6].zfill(3)
-                        words[i + 5]=words[i+5].zfill(2)
-                        words[i + 4]=words[i+4].zfill(2)
-                        Time.append("/".join(words[i+1:i+7]))
                     if w == "Speed":
                         Speed.append(words[i+1])
                     if w == "VelStdDev":
@@ -74,8 +71,20 @@ def paserFile(path):
                     w = w.strip("\"")
                     if w == "Name":
                         VideoName.append(words[i+1].strip("\""))
+                    if w == "Time":
+                        words[i + 6]=words[i+6].zfill(3)
+                        words[i + 5]=words[i+5].zfill(2)
+                        words[i + 4]=words[i+4].zfill(2)
+                        Time.append("/".join(words[i+1:i+7]))
+                    if w == "Fov":
+                        FovW.append(words[i+1])
+                        FovH.append(words[i+2])
 
+
+        print "Fovw",len(FovW)
+        print "FovH", len(FovH)
         print "Time:",len(Time)
+        print FovW[0],FovH[0]
         # print "Speed",len(Speed)
         # print "SpeVelStdDeved",len(VelStdDev)
         # print "VelEast",len(VelEast)
@@ -96,7 +105,7 @@ def paserFile(path):
         data = {"VideoName":VideoName,"Frame":Frame,"Time":Time,"Speed":Speed,"VelStdDev":VelStdDev,"VelEast":VelEast,
                 "VelNorth":VelNorth,"VelUp":VelUp,"SlantRange":SlantRange,"Heading":Heading,
                 "TgtSenRelAzimuth":TgtSenRelAzimuth,"TgtSenRelElevation":TgtSenRelElevation,"PlyId":PlyId,"PixLocX":PixLocX,
-                "PixLocY": PixLocY,"Aspect": Aspect,"TgtType": TgtType,"Range":Range}
+                "PixLocY": PixLocY,"Aspect": Aspect,"TgtType": TgtType,"Range":Range,"FovW":FovW,"FovH":FovH}
         data_frame = DataFrame(dict([(k,Series(v)) for k,v in data.iteritems()]))
         csv_name = fileOnlyName + ".csv"
        # csv_path = os.path.join(os.getcwd(),csv_name)

@@ -3,9 +3,9 @@ from pandas import Series,DataFrame
 import pandas  as pd
 import numpy as np
 import time
-
-Annotations_dir = "sample_data/Annotations/Visible/"
-Train_Test_dir = "sample_data/Train_Test/Visible/"
+ImgType = "IR"
+Annotations_dir = os.path.join("sample_data/Annotations",ImgType)
+Train_Test_dir = os.path.join("sample_data/Train_Test",ImgType)
 
 GT_file = "sample_data/GroundTruth/Visible/FullList.csv"
 
