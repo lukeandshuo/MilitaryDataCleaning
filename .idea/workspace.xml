@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18af1e3b-1037-4ff0-8810-eabd7d79578e" name="Default" comment="">
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatchImageScale.py" afterPath="$PROJECT_DIR$/MatchImageScale.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agt_parser.py" afterPath="$PROJECT_DIR$/agt_parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arf_parser.py" afterPath="$PROJECT_DIR$/arf_parser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combine_into_1file.py" afterPath="$PROJECT_DIR$/combine_into_1file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_image.py" afterPath="$PROJECT_DIR$/convert_image.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/draw_bbox.py" afterPath="$PROJECT_DIR$/draw_bbox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/merge_info.py" afterPath="$PROJECT_DIR$/merge_info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/retrieve_metric.py" afterPath="$PROJECT_DIR$/retrieve_metric.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/splite_tran_test.py" afterPath="$PROJECT_DIR$/splite_tran_test.py" />
+=======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_data" afterPath="$PROJECT_DIR$/sample_data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scripts.iml" afterPath="$PROJECT_DIR$/.idea/scripts.iml" />
@@ -10,6 +22,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arf_parser.py" afterPath="$PROJECT_DIR$/arf_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bbox_parser.py" afterPath="$PROJECT_DIR$/bbox_parser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/retrieve_metric.py" afterPath="$PROJECT_DIR$/retrieve_metric.py" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +40,13 @@
       <file leaf-file-name="arf_parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arf_parser.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="15">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+=======
             <state relative-caret-position="448">
               <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -36,11 +54,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="agt_parser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agt_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="94" column="60" lean-forward="false" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
+=======
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
               <folding />
             </state>
           </provider>
@@ -61,9 +87,11 @@
       <file leaf-file-name="merge_info.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/merge_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +99,8 @@
       <file leaf-file-name="splite_tran_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/splite_tran_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="72" lean-forward="false" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+            <state relative-caret-position="300">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -93,8 +121,13 @@
       <file leaf-file-name="draw_bbox.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/draw_bbox.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="1050">
+              <caret line="74" column="42" lean-forward="false" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+=======
             <state relative-caret-position="375">
               <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -105,8 +138,8 @@
       <file leaf-file-name="MatchImageScale.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatchImageScale.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="750">
+              <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -117,8 +150,13 @@
       <file leaf-file-name="convert_image.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/convert_image.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="30">
+              <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+=======
             <state relative-caret-position="90">
               <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -126,11 +164,29 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="combine_into_1file.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/combine_into_1file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="retrieve_metric.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/retrieve_metric.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+=======
       <file leaf-file-name="retrieve_metric.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/retrieve_metric.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -153,22 +209,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/bbox_parser.py" />
+        <option value="$PROJECT_DIR$/retrieve_metric.py" />
+=======
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
         <option value="$PROJECT_DIR$/merge_info.py" />
+        <option value="$PROJECT_DIR$/MatchImageScale.py" />
         <option value="$PROJECT_DIR$/draw_bbox.py" />
-        <option value="$PROJECT_DIR$/splite_tran_test.py" />
         <option value="$PROJECT_DIR$/convert_image.py" />
+        <option value="$PROJECT_DIR$/combine_into_1file.py" />
         <option value="$PROJECT_DIR$/arf_parser.py" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/agt_parser.py" />
+        <option value="$PROJECT_DIR$/splite_tran_test.py" />
+=======
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/agt_parser.py" />
         <option value="$PROJECT_DIR$/bbox_parser.py" />
         <option value="$PROJECT_DIR$/retrieve_metric.py" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="x" value="111" />
+    <option name="y" value="272" />
+    <option name="width" value="1555" />
+=======
     <option name="x" value="289" />
     <option name="y" value="80" />
     <option name="width" value="1554" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -186,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -195,21 +269,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_data" />
+=======
               <option name="myItemId" value="DataCleaning" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$USER_HOME$/anaconda2/envs/od/bin/python2.7" />
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.splite_tran_test">
+    <configuration default="false" name="combine_into_1file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
   <component name="RunManager" selected="Python.retrieve_metric">
     <configuration default="false" name="draw_bbox" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -437,11 +533,19 @@
     </list>
     <recent_temporary>
       <list size="5">
+<<<<<<< HEAD
+        <item index="0" class="java.lang.String" itemvalue="Python.splite_tran_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.draw_bbox" />
+        <item index="2" class="java.lang.String" itemvalue="Python.arf_parser" />
+        <item index="3" class="java.lang.String" itemvalue="Python.convert_image" />
+        <item index="4" class="java.lang.String" itemvalue="Python.combine_into_1file" />
+=======
         <item index="0" class="java.lang.String" itemvalue="Python.retrieve_metric" />
         <item index="1" class="java.lang.String" itemvalue="Python.bbox_parser" />
         <item index="2" class="java.lang.String" itemvalue="Python.agt_parser" />
         <item index="3" class="java.lang.String" itemvalue="Python.arf_parser" />
         <item index="4" class="java.lang.String" itemvalue="Python.draw_bbox" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
       </list>
     </recent_temporary>
   </component>
@@ -459,15 +563,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="111" y="272" width="1555" height="1000" extended-state="0" />
+    <editor active="false" />
+=======
     <frame x="289" y="80" width="1554" height="1000" extended-state="1" />
     <editor active="true" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2979408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3491892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3491892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -540,7 +653,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -612,7 +727,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -684,7 +801,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -756,7 +875,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -821,17 +942,32 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/bbox_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+=======
     <entry file="file://$PROJECT_DIR$/combine_into_1file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/train" />
+    <entry file="file://$PROJECT_DIR$/test.csv">
+=======
     <entry file="file://$PROJECT_DIR$/test.csv" />
     <entry file="file://$PROJECT_DIR$/train" />
     <entry file="file://$PROJECT_DIR$/merge_info.py">
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
@@ -839,40 +975,72 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/retrieve_metric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/MatchImageScale.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/merge_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/convert_image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/MatchImageScale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+=======
     <entry file="file://$PROJECT_DIR$/draw_bbox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/draw_bbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="74" column="42" lean-forward="false" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+=======
     <entry file="file://$PROJECT_DIR$/splite_tran_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="72" lean-forward="false" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -882,15 +1050,35 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
+<<<<<<< HEAD
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+=======
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combine_into_1file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arf_parser.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="15">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+=======
         <state relative-caret-position="448">
           <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -899,6 +1087,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agt_parser.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="465">
+          <caret line="94" column="60" lean-forward="false" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
+          <folding />
+=======
         <state relative-caret-position="287">
           <caret line="106" column="40" lean-forward="false" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
           <folding />
@@ -912,13 +1105,19 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/retrieve_metric.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="300">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+=======
         <state relative-caret-position="150">
           <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+>>>>>>> 474d68ab29d68cb47ad27b91e2b10cd2327211d4
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>

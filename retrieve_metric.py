@@ -12,8 +12,10 @@ V_W = 640
 MetricDir = "sample_data/Metric/"
 IRMetricDir = MetricDir + "IR/"
 VisibleMetricDir = MetricDir + "Visible/"
+
 IRImgDir = "sample_data/Imagery/IR/images/"
 IRImgRegDir="sample_data/Imagery/IR_Reg/images/"
+
 
 AGTDir = "sample_data/AGT/"
 IRAGTDir = AGTDir+"IR/"
@@ -64,7 +66,7 @@ def RegisterImg(IRname,IRFovW,IRFovH,IRCX,IRCY,Visname,VisFovW,VisFovH,VisCX,Vis
     print IRImgRegPath
     cv2.imwrite(IRImgRegPath,IRImg)
 
-    VTest = True
+    VTest = False
     if VTest:
         cv2.circle(IRImg,(VisCX,VisCY),5,(0,0,255))
         cv2.circle(VisImg,(VisCX,VisCY),5,(0,255,0))

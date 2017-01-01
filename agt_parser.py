@@ -2,6 +2,7 @@ from pandas import Series,DataFrame
 import pandas as pd
 import numpy as np
 import os
+import os.path as op
 def paserFile(path):
     fileOnlyName = ("/").join(path.split('.')[:-1]) #remove extension
     print fileOnlyName
@@ -110,10 +111,12 @@ def paserFile(path):
         csv_name = fileOnlyName + ".csv"
        # csv_path = os.path.join(os.getcwd(),csv_name)
        # print os.getcwd()
+        print csv_name
         data_frame.to_csv(csv_name,index=False)
 
 if __name__== "__main__":
-    folderDir = "sample_data/AGT/IR/"
+    ImgType = "Visible"
+    folderDir = op.join("sample_data/AGT",ImgType)
     #folderDir = "/media/shuoliu/DATAPART1/Shuo/IROD/ATR_Database/sample_data/AGT/Visible_agt/"
    # folderDir = os.path.join(os.getcwd(),folderDir)   
     listDir = os.listdir(folderDir)
@@ -121,7 +124,7 @@ if __name__== "__main__":
     print listDir
     for f in listDir:
         if os.path.splitext(f)[1] ==".agt":
-            filePath = folderDir + f
+            filePath = op.join(folderDir , f)
             paserFile(filePath)
 
     # paserFile("sample_data/IR_agt/cegr02003_0001.agt")

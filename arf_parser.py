@@ -1,13 +1,15 @@
 import xdrlib
 from struct import *
 import os
+import os.path as op
 import cv2
 import numpy as np
 import time
 from skimage import img_as_ubyte
 from skimage import exposure
-Dir = "sample_data/Imagery/Visible/"
-VideoDir = Dir+"videos/"
+ImgType = "IR"
+Dir = op.join("sample_data/Imagery",ImgType)
+VideoDir = op.join(Dir,"videos")
 fileList = os.listdir(VideoDir)
 start = time.clock()
 ave = []
