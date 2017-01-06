@@ -1,4 +1,5 @@
 import os
+import os.path as op
 from pandas import Series, DataFrame
 def paserBbox(path):
     fileOnlyName = os.path.splitext(path)[0]
@@ -28,10 +29,11 @@ def paserBbox(path):
         file.write(data_csv)
 
 if __name__ == "__main__":
-    pathDir = "sample_data/Metric/IR/"
+    ImgType = "IR"
+    pathDir = op.join("sample_data/Metric",ImgType)
     listDir = os.listdir(pathDir)
     print listDir
     for f in listDir:
         if os.path.splitext(f)[1] == '.bbox_met':
-            filePath = pathDir + f
+            filePath = op.join(pathDir , f)
             paserBbox(filePath)
