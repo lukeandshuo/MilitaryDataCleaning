@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f25f9cd-1b5b-421f-b3cc-7f0758b1e8fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.csv" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Draw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/splite_tran_test.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_data" afterPath="$PROJECT_DIR$/sample_data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scripts.iml" afterPath="$PROJECT_DIR$/.idea/scripts.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatchImageScale.py" afterPath="$PROJECT_DIR$/MatchImageScale.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agt_parser.py" afterPath="$PROJECT_DIR$/agt_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arf_parser.py" afterPath="$PROJECT_DIR$/arf_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bbox_parser.py" afterPath="$PROJECT_DIR$/bbox_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/combine_into_1file.py" afterPath="$PROJECT_DIR$/combine_into_1file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convert_image.py" afterPath="$PROJECT_DIR$/convert_image.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/draw_bbox.py" afterPath="$PROJECT_DIR$/draw_bbox.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/merge_info.py" afterPath="$PROJECT_DIR$/merge_info.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/retrieve_metric.py" afterPath="$PROJECT_DIR$/retrieve_metric.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/splite_tran_test.py" afterPath="$PROJECT_DIR$/splite_tran_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,19 +20,31 @@
       <file leaf-file-name="agt_parser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agt_parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="1260">
               <caret line="88" column="34" lean-forward="false" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="retrieve_metric.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="retrieve_metric.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retrieve_metric.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="111" column="40" lean-forward="false" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="splite_tran_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/splite_tran_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,12 +71,13 @@
       <list>
         <option value="$PROJECT_DIR$/agt_parser.py" />
         <option value="$PROJECT_DIR$/retrieve_metric.py" />
+        <option value="$PROJECT_DIR$/splite_tran_test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2037" />
-    <option name="y" value="291" />
+    <option name="x" value="2655" />
+    <option name="y" value="114" />
     <option name="width" value="1845" />
     <option name="height" value="998" />
   </component>
@@ -99,7 +97,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,12 +111,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.retrieve_metric">
+  <component name="RunManager" selected="Python.splite_tran_test">
     <configuration default="false" name="agt_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,6 +148,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scripts" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/retrieve_metric.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="splite_tran_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scripts" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/splite_tran_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -288,14 +303,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.agt_parser" />
       <item index="1" class="java.lang.String" itemvalue="Python.retrieve_metric" />
+      <item index="2" class="java.lang.String" itemvalue="Python.splite_tran_test" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.retrieve_metric" />
-        <item index="1" class="java.lang.String" itemvalue="Python.agt_parser" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.splite_tran_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.retrieve_metric" />
+        <item index="2" class="java.lang.String" itemvalue="Python.agt_parser" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +330,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2037" y="291" width="1845" height="998" extended-state="0" />
+    <frame x="2655" y="114" width="1845" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1295393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -321,7 +338,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33044422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33044422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13584906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -364,6 +381,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/agt_parser.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="88" column="34" lean-forward="false" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retrieve_metric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bbox_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agt_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -400,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/agt_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="1260">
           <caret line="88" column="34" lean-forward="false" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
           <folding />
         </state>
@@ -411,6 +454,16 @@
         <state relative-caret-position="442">
           <caret line="111" column="40" lean-forward="false" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/splite_tran_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
