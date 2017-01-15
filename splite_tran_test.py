@@ -32,6 +32,7 @@ V_list_dir = op.join("sample_data/Train_Test",VImgType)
 if not os.path.exists(V_list_dir):
     os.makedirs(V_list_dir)
 
+# generate IR and Visible motion images
 def GenerateMotion(df):
     df = df.reset_index()
     IR_Image_Dir = op.join("sample_data/Imagery", IRImgType, "images")
@@ -64,6 +65,33 @@ def GenerateMotion(df):
         motion_image=cv2.absdiff(c_image,l_image)
         cv2.imwrite(op.join(V_Motion_Dir,str(df['ImageName'][current_frame])+".png"),motion_image)
 
+# generate three channel images
+def Generate3CImg(df):
+    df = df.reset_index()
+    IR_Image_Dir = op.join("sample_data/Imagery", IRImgType, "images")
+    V_Image_Dir = op.join("sample_data/Imagery", VImgType, "images")
+    V_Motion_Dir = op.join("sample_data/Imagery/V_Motion/images")
+    ThreeC_Image_Dir = op.join("sample_data/Imagery/3C/images")
+    if  not op.exists(ThreeC_Image_Dir):
+        os.makedirs(ThreeC_Image_Dir)
+    for i, name in enumerate(df['ImageName']):
+        v_name = op.join(V_Image_Dir,str(name)+".png")
+        v_image = cv2.imread(v_name,0) # load image in gray scale
+        ir_name = op.join(IR_Image_Dir,str(df['Match'][i]+".png"))
+        ir_image = cv2.imread(ir_name,0)
+        m_name = op.join(V_Motion_Dir,str(name)+".png")
+        print m_name
+        m_image= cv2.imread(m_name,0)
+
+        image = cv2.merge((v_image,m_image,ir_image))    #merge
+       # image = np.concatenate((v_image,ir_image,m_image),1) #split
+       #  cv2.imshow("result",image)
+       #  cv2.waitKey(20)
+
+        threeC_name = op.join(ThreeC_Image_Dir,str(name)+".png")
+        cv2.imwrite(threeC_name,image)
+
+
 
 GT_file = op.join("sample_data/GroundTruth","Visible","FullList.csv")
 if not os.path.isfile(GT_file):
@@ -73,12 +101,13 @@ else:
     clean_df = df[pd.notnull(df['Match'])]
     train_df = clean_df[(clean_df["TgtType"]!="ZSU23") & (clean_df["TgtType"]!="2S3")& (clean_df["TgtType"]!="SUV")]
     train_df = train_df[train_df["Frame"]%skip_num == 0] # skip 5 frame
-    GenerateMotion(train_df)
-
+# GenerateMotion(train_df)
+    Generate3CImg(train_df)
     test_df = clean_df[(clean_df["TgtType"]=="ZSU23") | (clean_df["TgtType"]=="2S3")| (clean_df["TgtType"]=="SUV")]
     test_df = test_df[test_df["Frame"]%skip_num==0]
 
-    GenerateMotion(test_df)
+   # GenerateMotion(test_df)
+    Generate3CImg(test_df)
 
     # train_df = train_df.reindex(np.random.permutation(train_df.index))
     # #test_df = test_df.reindex(np.random.permutation(test_df.index))
